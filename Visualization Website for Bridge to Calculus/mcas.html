@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+  
+  
+  <!-- style of selected circles -->
+  <style>
+    .selected {
+      opacity: 1 !important;
+      stroke: rgb(22, 197, 228);
+      stroke-width: 6px;
+    }
+    
+    #charts{
+      width: 650px;
+      height: 500px;
+      margin: 25px auto;
+      position: relative
+    }
+    
+    .float-child1 {
+      float: left;
+      padding: 20px;
+    } 
+    
+    .mainView {
+      display: flex;
+    }
+    
+    .selectorDiv {
+      float: bottom;
+      padding: 20px;
+    }
+    #tooltip{
+      position: absolute;
+      width: 150px;
+      height: auto;
+      padding: 10px;
+      background-color:ivory ;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      -webkit-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+      -moz-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+      box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+      pointer-events: none;
+    }
+    #tooltip.hidden{
+      display: none;
+    }
+    #tooltip p{
+      margin: 0;
+      font-family: sans-serif;
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: bold;
+    }
+  </style>
+  
+</head>
+
+<body>
+  <h1>MCAS Preliminary Interactive Visualization</h1>
+  <div class="mainView">
+    <div class="float-child1" id="chart1-container">
+      <svg id="chart1"></svg>
+    </div>
+    <div class="float-child1">
+      <svg id="chart2"></svg>
+    </div>
+  </div>
+  <div class="selectorDiv">
+    <select id="selectDemographic"></select>
+  </div>
+  <div>
+    <div id="tooltip" class="hidden">
+      <p><span id="value">N/A</span></p>
+    </div>
+    <svg id="chart3"></svg>
+    <p id="slidervalue"></p>
+    <div id="slider"></div>
+  </div>
+</body>
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://unpkg.com/d3-simple-slider"></script>
+<script src="mcas.js"></script> 
+
+</html>

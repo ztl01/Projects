@@ -1,0 +1,8 @@
+[	
+    {"year":"2005", "National_Average": 23.25, "Hispanic": 8, "White":29,"Black":6,"Asian":36},
+    {"year":"2009", "National_Average": 26.5, "Hispanic": 11, "White":33,"Black":6,"Asian":52},
+    {"year":"2013", "National_Average": 26.5, "Hispanic": 12, "White":33,"Black":7,"Asian":47},
+    {"year":"2015", "National_Average": 25.5, "Hispanic": 12, "White":32,"Black":7,"Asian":46},
+    {"year":"2019", "National_Average": 25.25, "Hispanic": 11, "White":32,"Black":8,"Asian":50}
+
+]

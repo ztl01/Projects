@@ -1,0 +1,204 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <link href="./assets/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="./assets/favicon.ico" rel="icon">
+
+
+  <title>Final Visualization</title>
+
+  <style>
+    .selected {
+      opacity: 1 !important;
+      stroke: rgb(22, 197, 228);
+      stroke-width: 6px;
+    }
+    
+    #charts{
+      width: 600px;
+      height: 500px;
+      margin: 25px auto;
+      position: relative
+    }
+    
+    .float-child1 {
+      float: left;
+      padding: 20px;
+    } 
+    
+    .mainView {
+      display: flex;
+    }
+    
+    .selectorDiv {
+      float: bottom;
+      padding: 20px;
+    }
+    #tooltip{
+      position: absolute;
+      width: 150px;
+      height: auto;
+      padding: 10px;
+      background-color:ivory ;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      -webkit-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+      -moz-box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+      box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+      pointer-events: none;
+    }
+    #tooltip.hidden{
+      display: none;
+    }
+    #tooltip p{
+      margin: 0;
+      font-family: sans-serif;
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: bold;
+    }
+    div.tooltip-donut {
+      position: absolute;
+    }
+  </style>
+  
+
+
+<link href="./main.a3f694c0.css" rel="stylesheet"></head>
+
+<header>
+  <nav class="navbar  navbar-fixed-top navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle uarr collapsed" data-toggle="collapse" data-target="#navbar-collapse-uarr">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="./index.html" title="">
+          <img src="./assets/images/mashuptemplate.svg" class="navbar-logo-img" alt="">
+        </a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse-uarr">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="./index.html" title="" class="active">Home</a></li>
+          <li><a href="./motivation.html" title=""> Motivation</a></li>
+          <li><a href="./data.html" title=""> Data </a></li>
+          <li><a href="./task-analysis.html" title="">Task Analysis</a></li>
+          <li><a href="./design-process.html" title="">Design Process</a></li>
+          <li><a href="./final-analysis.html" title="">Final Visualization</a></li>
+          <li><a href="./data-analysis.html" title="">Data Analysis</a></li>
+          <li><a href="./conclusion.html" title="">Conclusion</a></li>
+          <li>
+            <p>
+              <a href="./download.html" class="btn btn-primary navbar-btn" title="">Download</a>
+            </p>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+  
+<div class="container">
+  <div class="row">
+    <!--<div class="col-xs-12 col-md-6"> -->
+
+      <div class="template-example">
+        <h1 class="template-title-example">Below are our visualizations for the data!</h1>
+
+<body>
+  <h2>MCAS - Massachusetts Comprehensive Assessment System</h2>
+  <h3>Interactive Features</h3>
+  <ul>
+    <li><B>Selector Button</B>: Click on the desired demographic to highlight it and dim out the other lines.</li>
+    <li><B>Tooltips</B>: Hover over a circle to view its data.</li>
+    <li><B>Linking</B>: To capture the difference between 4th and 8th grade, hovering a circle in one chart also produces a tooltip on the other chart. 
+      The increase or decrease in the score is noted for a deeper understanding of how the grades differ.</li>
+  </ul>
+  <p>Note there is no MCAS data for 2015 and 2016. There was no MCAS Math data for these years because an alternate test was used in those years.</p>
+  <div class="mainView">
+    <div class="float-child1" id="chart1-container">
+      <svg id="chart1"></svg>
+    </div>
+    <div class="float-child1" id="chart2-container">
+      <svg id="chart2"></svg>
+    </div>
+  </div>
+  <div class="selectorDiv">
+    <select id="selectDemographic"></select>
+  </div>
+  <div>
+    <p><B>Observations:</B></p>
+    <li>The number of times 8th grade is higher than 4th is 11/12 for Asians, 9/12 for Whites, and 6/12 for Blacks and Hispanics. </li>
+    <li>Black students and Hispanic students' mathmatical proficiency had been below the state average level from 2006 to 2019.</li>
+   </div>
+  <div>
+    <div id="chart3-container">
+      <svg id="chart3"></svg>
+      <p><b>Toggle me</b> to see the MCAS scores by demographic for a particular year! And <b>hover</b> for a tooltip!</p>
+      <div id="slider"></div>
+    </div>
+    <p><B>Observations:</B></p>
+    <li>Asian students have best performance in MCAS test for both Grade 4 and 8 in every obersved year.</li>
+    <li>In every year except 2017 Grade 8 Asians perform better than Grade 4 Asians, however this varies for every other demographic, especially for Blacks and Hispanics.</li>
+  </div>
+  
+  <h2>NAEP - National Assessment of Educational Progress</h2>
+  <h3>Interactive Features</h3>
+  <ul>
+    <li><B>Interactive Legend</B>: Click on an item in the legend to make it disappear from the chart, click again to see it reappear!</li>
+    <li><B>Tooltips</B>: Hover over a dot to view its data.</li>
+  </ul>
+  <div id="charts">
+        </div>
+  <div>
+  <p>The visualization above displays these average scores for Asians, Blacks, Hispanics, and Whites. Each line refers to the percentage of 12th grade students at or above NAEP proficient for MA. The blue line refers to the national average level.</li>
+  </div>
+  
+        <h3>Design Justifications</h3>
+        <ul>
+          <li>We used colors that we felt represented the demographic well. If it was an actual color (such as White or Black) we used shades similar to them, for Asian and Hispanic we took user input during usability testing.</li>
+          <li>The select button is to allow for easier visual comparison via a pop out effect. Dimming the other lines and thickening the selected one allows the user to see general trends for both 4th and 8th grade at the same time.</li>
+          <li>The linked tooltip hovering feature was one we are most proud of because of the difficulty of implementation, but also because of its practical use. Knowing the difference for 4th and 8th grade is highly important, so by showing the increase or decrease as part of the hover we save the user a lot of squinting.</li>
+          <li>The slider was implemented as oppose to another selector button because it has a storytelling effect by producing an animation. By sliding, you can follow the growth over time in a different encoding than the line chart, even though the same data is represented. A select button for Year could not reproduce this effect.</li>
+          <li>We implemented the interactive legend to demonstrate our will to try new features and demonstrate our effort on the assignment. We also received positive feedback on it during usability as it allows the complete removal of the line. So if a user feels the chart is too cluttered, they can change it to whatever they want to see.</li>
+        </ul>
+        
+        <h3>Packages for Coding</h3>
+
+        <ul>
+          <li>For Grouped bar chart help: https://bl.ocks.org/bricedev/0d95074b6d83a77dc3ad</li>
+          <li>For help on transitions: https://www.d3indepth.com/transitions/</li>
+          <li>For Slider implementation: https://unpkg.com/d3-simple-slider</li>
+          </ul>
+</div>
+ 
+    
+  </div>
+</div>
+ </body>
+
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://unpkg.com/d3-simple-slider"></script>
+<script src="mcas.js"></script> 
+<script src="naep.js"></script> 
+  
+
+  
+</html>

@@ -1,0 +1,362 @@
+[
+        {
+            "Year": "2006",
+            "Race": "State Average",
+            "Grade 4": "40",
+            "Grade 8": "40"
+        },
+        {
+            "Year": "2006",
+            "Race": "Hispanic",
+            "Grade 4": "21",
+            "Grade 8": "14"
+        },
+        {
+            "Year": "2006",
+            "Race": "White",
+            "Grade 4": "49",
+            "Grade 8": "46"
+        },
+        {
+            "Year": "2006",
+            "Race": "Black",
+            "Grade 4": "18",
+            "Grade 8": "14"
+        },
+        {
+            "Year": "2006",
+            "Race": "Asian",
+            "Grade 4": "58",
+            "Grade 8": "63"
+        },
+        {
+            "Year": "2007",
+            "Race": "State Average",
+            "Grade 4": "48",
+            "Grade 8": "45"
+        },
+        {
+            "Year": "2007",
+            "Race": "Hispanic",
+            "Grade 4": "21",
+            "Grade 8": "20"
+        },
+        {
+            "Year": "2007",
+            "Race": "White",
+            "Grade 4": "52",
+            "Grade 8": "52"
+        },
+        {
+            "Year": "2007",
+            "Race": "Black",
+            "Grade 4": "18",
+            "Grade 8": "14"
+        },
+        {
+            "Year": "2007",
+            "Race": "Asian",
+            "Grade 4": "64",
+            "Grade 8": "67"
+        },
+        {
+            "Year": "2008",
+            "Race": "State Average",
+            "Grade 4": "49",
+            "Grade 8": "49"
+        },
+        {
+            "Year": "2008",
+            "Race": "Hispanic",
+            "Grade 4": "24",
+            "Grade 8": "26"
+        },
+        {
+            "Year": "2008",
+            "Race": "White",
+            "Grade 4": "48",
+            "Grade 8": "57"
+        },
+        {
+            "Year": "2008",
+            "Race": "Black",
+            "Grade 4": "23",
+            "Grade 8": "22"
+        },
+        {
+            "Year": "2008",
+            "Race": "Asian",
+            "Grade 4": "63",
+            "Grade 8": "74"
+        },
+        {
+            "Year": "2009",
+            "Race": "State Average",
+            "Grade 4": "48",
+            "Grade 8": "48"
+        },
+        {
+            "Year": "2009",
+            "Race": "Hispanic",
+            "Grade 4": "22",
+            "Grade 8": "19"
+        },
+        {
+            "Year": "2009",
+            "Race": "White",
+            "Grade 4": "46",
+            "Grade 8": "52"
+        },
+        {
+            "Year": "2009",
+            "Race": "Black",
+            "Grade 4": "21",
+            "Grade 8": "16"
+        },
+        {
+            "Year": "2009",
+            "Race": "Asian",
+            "Grade 4": "59",
+            "Grade 8": "72"
+        },
+        {
+            "Year": "2010",
+            "Race": "State Average",
+            "Grade 4": "48",
+            "Grade 8": "51"
+        },
+        {
+            "Year": "2010",
+            "Race": "Hispanic",
+            "Grade 4": "25",
+            "Grade 8": "25"
+        },
+        {
+            "Year": "2010",
+            "Race": "White",
+            "Grade 4": "46",
+            "Grade 8": "54"
+        },
+        {
+            "Year": "2010",
+            "Race": "Black",
+            "Grade 4": "19",
+            "Grade 8": "25"
+        },
+        {
+            "Year": "2010",
+            "Race": "Asian",
+            "Grade 4": "56",
+            "Grade 8": "78"
+        },
+        {
+            "Year": "2011",
+            "Race": "State Average",
+            "Grade 4": "47",
+            "Grade 8": "52"
+        },
+        {
+            "Year": "2011",
+            "Race": "Hispanic",
+            "Grade 4": "26",
+            "Grade 8": "26"
+        },
+        {
+            "Year": "2011",
+            "Race": "White",
+            "Grade 4": "50",
+            "Grade 8": "60"
+        },
+        {
+            "Year": "2011",
+            "Race": "Black",
+            "Grade 4": "19",
+            "Grade 8": "21"
+        },
+        {
+            "Year": "2011",
+            "Race": "Asian",
+            "Grade 4": "66",
+            "Grade 8": "74"
+        },
+        {
+            "Year": "2012",
+            "Race": "State Average",
+            "Grade 4": "51",
+            "Grade 8": "52"
+        },
+        {
+            "Year": "2012",
+            "Race": "Hispanic",
+            "Grade 4": "25",
+            "Grade 8": "27"
+        },
+        {
+            "Year": "2012",
+            "Race": "White",
+            "Grade 4": "56",
+            "Grade 8": "60"
+        },
+        {
+            "Year": "2012",
+            "Race": "Black",
+            "Grade 4": "17",
+            "Grade 8": "24"
+        },
+        {
+            "Year": "2012",
+            "Race": "Asian",
+            "Grade 4": "65",
+            "Grade 8": "73"
+        },
+        {
+            "Year": "2013",
+            "Race": "State Average",
+            "Grade 4": "52",
+            "Grade 8": "54"
+        },
+        {
+            "Year": "2013",
+            "Race": "Hispanic",
+            "Grade 4": "26",
+            "Grade 8": "31"
+        },
+        {
+            "Year": "2013",
+            "Race": "White",
+            "Grade 4": "56",
+            "Grade 8": "56"
+        },
+        {
+            "Year": "2013",
+            "Race": "Black",
+            "Grade 4": "19",
+            "Grade 8": "24"
+        },
+        {
+            "Year": "2013",
+            "Race": "Asian",
+            "Grade 4": "71",
+            "Grade 8": "81"
+        },
+        {
+            "Year": "2014",
+            "Race": "State Average",
+            "Grade 4": "52",
+            "Grade 8": "52"
+        },
+        {
+            "Year": "2014",
+            "Race": "Hispanic",
+            "Grade 4": "35",
+            "Grade 8": "32"
+        },
+        {
+            "Year": "2014",
+            "Race": "White",
+            "Grade 4": "61",
+            "Grade 8": "57"
+        },
+        {
+            "Year": "2014",
+            "Race": "Black",
+            "Grade 4": "24",
+            "Grade 8": "24"
+        },
+        {
+            "Year": "2014",
+            "Race": "Asian",
+            "Grade 4": "70",
+            "Grade 8": "77"
+        },
+        {
+            "Year": "2017",
+            "Race": "State Average",
+            "Grade 4": "49",
+            "Grade 8": "48"
+        },
+        {
+            "Year": "2017",
+            "Race": "Hispanic",
+            "Grade 4": "23",
+            "Grade 8": "21"
+        },
+        {
+            "Year": "2017",
+            "Race": "White",
+            "Grade 4": "52",
+            "Grade 8": "56"
+        },
+        {
+            "Year": "2017",
+            "Race": "Black",
+            "Grade 4": "17",
+            "Grade 8": "15"
+        },
+        {
+            "Year": "2017",
+            "Race": "Asian",
+            "Grade 4": "69",
+            "Grade 8": "68"
+        },
+        {
+            "Year": "2018",
+            "Race": "State Average",
+            "Grade 4": "48",
+            "Grade 8": "50"
+        },
+        {
+            "Year": "2018",
+            "Race": "Hispanic",
+            "Grade 4": "24",
+            "Grade 8": "24"
+        },
+        {
+            "Year": "2018",
+            "Race": "White",
+            "Grade 4": "57",
+            "Grade 8": "59"
+        },
+        {
+            "Year": "2018",
+            "Race": "Black",
+            "Grade 4": "22",
+            "Grade 8": "21"
+        },
+        {
+            "Year": "2018",
+            "Race": "Asian",
+            "Grade 4": "65",
+            "Grade 8": "73"
+        },
+        {
+            "Year": "2019",
+            "Race": "State Average",
+            "Grade 4": "50",
+            "Grade 8": "46"
+        },
+        {
+            "Year": "2019",
+            "Race": "Hispanic",
+            "Grade 4": "24",
+            "Grade 8": "23"
+        },
+        {
+            "Year": "2019",
+            "Race": "White",
+            "Grade 4": "63",
+            "Grade 8": "60"
+        },
+        {
+            "Year": "2019",
+            "Race": "Black",
+            "Grade 4": "19",
+            "Grade 8": "21"
+        },
+        {
+            "Year": "2019",
+            "Race": "Asian",
+            "Grade 4": "72",
+            "Grade 8": "78"
+        }
+    ]

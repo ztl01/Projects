@@ -1,0 +1,14 @@
+[	
+              {"year":"2006", "State Average": 40, "Hispanic/Latino": 21, "White":49,"Black":18,"Asian":58, "State Average 8": 40, "Hispanic/Latino 8": 14, "White 8":46,"Black 8":14,"Asian 8":63},
+              {"year":"2007", "State Average": 48, "Hispanic/Latino": 21, "White":52,"Black":18,"Asian":64, "State Average 8": 45, "Hispanic/Latino 8": 20, "White 8":52,"Black 8":14,"Asian 8":67},
+              {"year":"2008", "State Average": 49, "Hispanic/Latino": 24, "White":48,"Black":23,"Asian":63, "State Average 8": 49, "Hispanic/Latino 8": 26, "White 8":57,"Black 8":22,"Asian 8":74},
+              {"year":"2009", "State Average": 48, "Hispanic/Latino": 22, "White":46,"Black":21,"Asian":59, "State Average 8": 48, "Hispanic/Latino 8": 19, "White 8":52,"Black 8":16,"Asian 8":72},
+              {"year":"2010", "State Average": 48, "Hispanic/Latino": 25, "White":46,"Black":19,"Asian":56, "State Average 8": 51, "Hispanic/Latino 8": 25, "White 8":54,"Black 8":25,"Asian 8":78},
+              {"year":"2011", "State Average": 47, "Hispanic/Latino": 26, "White":50,"Black":19,"Asian":66, "State Average 8": 52, "Hispanic/Latino 8": 26, "White 8":60,"Black 8":21,"Asian 8":74},
+              {"year":"2012", "State Average": 51, "Hispanic/Latino": 25, "White":56,"Black":17,"Asian":65, "State Average 8": 52, "Hispanic/Latino 8": 27, "White 8":60,"Black 8":24,"Asian 8":73},
+              {"year":"2013", "State Average": 52, "Hispanic/Latino": 26, "White":56,"Black":19,"Asian":71, "State Average 8": 54, "Hispanic/Latino 8": 31, "White 8":56,"Black 8":24,"Asian 8":81},
+              {"year":"2014", "State Average": 52, "Hispanic/Latino": 35, "White":61,"Black":24,"Asian":70, "State Average 8": 52, "Hispanic/Latino 8": 32, "White 8":57,"Black 8":24,"Asian 8":77},
+              {"year":"2017", "State Average": 49, "Hispanic/Latino": 23, "White":52,"Black":17,"Asian":69, "State Average 8": 48, "Hispanic/Latino 8": 21, "White 8":56,"Black 8":15,"Asian 8":68},
+              {"year":"2018", "State Average": 48, "Hispanic/Latino": 24, "White":57,"Black":22,"Asian":65, "State Average 8": 50, "Hispanic/Latino 8": 24, "White 8":59,"Black 8":21,"Asian 8":73},
+              {"year":"2019", "State Average": 50, "Hispanic/Latino": 24, "White":63,"Black":19,"Asian":72, "State Average 8": 46, "Hispanic/Latino 8": 23, "White 8":60,"Black 8":21,"Asian 8":78}
+]
